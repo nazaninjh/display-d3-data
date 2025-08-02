@@ -73,11 +73,13 @@ export const drawChartLines = (
         .x((d) => xScale(d.x))
         .y((d) => yScale(d.y));
 
+      const normalizedColorIndex = i % colors.length;
+
       chartGroup
         .append("path")
         .datum(series)
         .attr("fill", "none")
-        .attr("stroke", colors[i])
+        .attr("stroke", colors[normalizedColorIndex])
         .attr("stroke-width", 2)
         .attr("d", line);
     }
