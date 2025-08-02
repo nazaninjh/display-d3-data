@@ -1,0 +1,17 @@
+[
+  {
+    "title": "single series chart",
+    "data": [
+      [53, -0.056],
+      [58, null],
+      [63, 0.112]
+    ]
+  },
+  {
+    "title": "multi series chart",
+    "data": [
+      [0, [34, 45, 75]],
+      [10, [53, 84, 34]]
+    ]
+  }
+]
